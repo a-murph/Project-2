@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-	var Restaurant = sequelize.define("Post", {
+	var Restaurant = sequelize.define("Restaurant", {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
