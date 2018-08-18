@@ -1,93 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lunch Locater</title>
+		<!--jQuery-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="	crossorigin="anonymous"></script>
+		<!--Bootstrap-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+		crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+		<!--Materialize-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+		<!--app.js-->
+		<script src="./js/app.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="parallax-container">
+			<div class="parallax"><img src="images/lunchForms-pic1.jpg"></div>
+		</div>
+		<!-- Jumbotron-->
+		<div id="head" class="jumbotron z-depth-2 rounded-0 ">
+			<h2 class="text-center container">
+				Lunch Locater
+			</h2>
+		</div>
 
-<head>
-	<meta charset="UTF-8">
-	<title>Lunch Locater</title>
-	<!-- Latest compiled and minified CSS & JS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-	<link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+		<div id="groupNames">
+		</div>
 
-</head>
-
-<body>
-
-        <div class="parallax-container">
-                <div class="parallax"><img src="images/lunchForms-pic1.jpg"></div>
-            </div>
-<!-- Jumbotron-->
-    <div id="head" class="jumbotron z-depth-2 rounded-0 ">
-        <h2 class="text-center container">
-            Lunch Locater
-        </h2>
-    </div>
-
-    <div id="groupNames">
-
-
-    </div>
-
-    
-    <div class="container">
-            <!-- Content here -->
-            <div class="row">
-                    <div class="col s12">
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <input type="text" id="autocomplete-input" class="autocomplete">
-                          <label for="autocomplete-input">Name</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                        <div class="col s12">
-                          <div class="row">
-                            <div class="input-field col s12">
-                              <input type="text" id="autocomplete-input" class="autocomplete">
-                              <label for="autocomplete-input">Location</label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="row">
-                            <div class="col s12">
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <input type="text" id="autocomplete-input" class="autocomplete">
-                                  <label for="autocomplete-input">Restaurant Suggestion</label>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <br>
-                          <br>
-
-                          <a class="waves-effect waves-light btn">button</a>
-
-
-          </div>
-
-
-
-
-
-        <!--Bootstrap-->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-   <!--Materialize-->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-   <!--app.js-->
-        <script src = "/models/lunchApp.js" type="text/javascript"></script>
-    </body>
-
-    </html>
+		<div class="container">
+			<!-- Content here -->
+			<div class="row">
+				<div class="col s12">
+					<div class="row">
+						<div class="input-field col s12">
+							<input type="text" id="autocomplete-input" class="autocomplete">
+							<label for="autocomplete-input">Name</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="row">
+						<div class="input-field col s12">
+							<input type="text" id="autocomplete-input" class="autocomplete">
+							<label for="autocomplete-input">Location</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="row">
+						<div class="input-field col s12">
+							<input type="text" id="autocomplete-input" class="autocomplete">
+							<label for="autocomplete-input">Restaurant Suggestion</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<a class="waves-effect waves-light btn">button</a>
+		</div>
+		<!--Bootstrap-->
+	</body>
+</html>
