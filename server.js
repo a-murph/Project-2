@@ -19,7 +19,7 @@ app.use(express.static("public"));
 
 //routes
 require("./routing/html-routes.js")(app);
-require("./routing/api-routes.js")(app);
+// require("./routing/api-routes.js")(app);
 
 db.sequelize.sync({}).then(function() {
 	app.listen(PORT, function() {
