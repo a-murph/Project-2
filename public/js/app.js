@@ -10,7 +10,9 @@ $(document).ready(function() {
 			restaurant_name: restaurant
 		};
 
-		$.post("/api/restaurants", newRestaurant, function() {}).then(function() {
+		$.post("/api/restaurants", newRestaurant, function(data) {
+			$("#groupNames").append("<span class='member-name'>" +data.user_name +"</span>");
+		}).then(function() {
 			$("#user-name").val("");
 			$("#user-location").val("");
 			$("#restaurant-name").val("");
