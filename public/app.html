@@ -1,100 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Lunch Locater</title>
-    <!-- Compiled and minified CSS -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Lunch Locater</title>
+		<!-- Compiled and minified CSS -->
 		<!--materialize icons-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
-       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-       <!--bootstrap cdn-->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
-	
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		<!--bootstrap cdn-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-	
-    
-    <!--CSS stylesheet-->
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" title="no title">
+		<!--CSS stylesheet-->
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="no title">
+	</head>
+	<body>
+		<div class="parallax-container">
+			<div class="parallax"><img src="images/lunchForms-pic1.jpg"></div>
+		</div>
+		<!-- Jumbotron-->
+		<div id="head" class="jumbotron z-depth-2 rounded-0">
+			<h2 class="text-center container">
+				Lunch Locater
+			</h2>
+		</div>
 
-</head>
+		<div class="container">
+			<div class="row">
+				<div class="col" id="group">
+					<h4>Group Members: </h4>
+					<div id="groupNames">
 
-<body>
+					</div>
+					<br>
+					<br>
+					<div id="restChoice">
+						<h5>Your Restaurant Choice Is: </h5>
+						<div id="restRandom">
 
-        <div class="parallax-container">
-                <div class="parallax"><img src="images/lunchForms-pic1.jpg"></div>
-            </div>
-<!-- Jumbotron-->
-    <div id="head" class="jumbotron z-depth-2 rounded-0">
-        <h2 class="text-center container">
-            Lunch Locater
-        </h2>
-    </div>
+						</div>
+					</div>
+				</div>
 
-    <div class="container">
-                              <div class="row">
-                                <div class="col" id="group">
-                                    <h4>Group Members: </h4>
-                                    <div id="groupNames">
-                              
-                                    </div>
-                                    <br>
-                                    <br>
-                                    <div id="restChoice">
-                                            <h5>Your Restaurant Choice Is: </h5>
-                                            <div id="restRandom">
-        
-                                            </div>
-                                        </div>
-                                </div>
+				<div id="form">
+					<div class="col">
+						<h4>Input your information and restaurant choice here: </h4>
+						<br>
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-sm">Group Name</span>
+							</div>
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="group-name">
+						</div>
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-sm">Member Name</span>
+							</div>
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-name">
+						</div>
+						<br>
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-sm">Location</span>
+							</div>
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-location">
+						</div>
+						<br>
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-sm">Restaurant Suggestion</span>
+							</div>
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="restaurant-name">
+						</div>
+						<br>
+					</div>
+					<button class="waves-effect waves-light btn" id="submit-restaurant">Submit</button>
+				</div>
+			</div>
+		</div>
 
-                                
-                                <div id="form">
-                                <div class="col">
-                                    <h4>Input your information and restaurant choice here: </h4>
-                                    <br>
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
-                                        </div>
-                                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                      </div>
-                                      <br>
-                                      <div class="input-group input-group-sm mb-3">
-                                          <div class="input-group-prepend">
-                                            <span class="input-group-text" id="inputGroup-sizing-sm">Location</span>
-                                          </div>
-                                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                        </div>
-                                        <br>
-                                        <div class="input-group input-group-sm mb-3">
-                                            <div class="input-group-prepend">
-                                              <span class="input-group-text" id="inputGroup-sizing-sm">Restaurant Suggestion</span>
-                                            </div>
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                                          </div>
-                                          <br>
-                                </div>
-                                <a class="waves-effect waves-light btn">button</a>
-                              </div>
-                              </div>
+		<div class="parallax-container">
+			<div class="parallax"><img src="images/lunchForms-pic1.jpg"></div>
+		</div>
 
-                          
-
-
-          </div>
-
-          <div class="parallax-container">
-                <div class="parallax"><img src="images/lunchForms-pic1.jpg"></div>
-            </div>
-
-          <footer class="footer text-center py-2  z-depth-2 crimson">
+		<footer class="footer text-center py-2  z-depth-2 crimson">
 			<ul class="nav-brand nav navbar p-3 list-unstyled crimson">
 				<li class="nav-item">
 					<a class="nav-link active">
@@ -129,28 +121,18 @@
 			</ul>
 		</footer>
 
-
-
-
-         
-
-        <!--Bootstrap-->
-	<!--Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-   <!--Materialize-->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-   <!--app.js-->
-        <script src = "/models/restaurant.js" type="text/javascript"></script>
-        <script>
-            //for parallax effect
-$('.parallax').parallax();
-        
-        </script>
-    </body>
-
-    </html>
+		<!--Bootstrap-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		 crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<!--Materialize-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+		<!--app.js-->
+		<script src="/js/app.js" type="text/javascript"></script>
+		<script>
+			//for parallax effect
+			$('.parallax').parallax();
+		</script>
+	</body>
+</html>
