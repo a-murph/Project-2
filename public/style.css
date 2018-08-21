@@ -21,3 +21,9 @@ h4 {
 	display: inline-block;
 	margin-right: 12px;
 }
+#groupSearch{
+    float:right;
+}
+#groupInput{
+    width:325px;
+}
