@@ -1,0 +1,19 @@
+#form{
+    padding: 25px;
+    float: right;
+    border-style: solid;
+    border-color: dimgrey;
+    border-width: 2px;
+    
+}
+
+#group{
+ float: left;
+ 
+}
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#restChoice{
+    float:left;
+}
