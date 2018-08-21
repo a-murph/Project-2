@@ -17,3 +17,8 @@ h4 {
 #restChoice{
     float:left;
 }
+
+.member-name {
+	display: inline-block;
+	margin-right: 12px;
+}
