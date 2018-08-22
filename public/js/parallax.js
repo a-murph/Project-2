@@ -4,7 +4,7 @@
   //});
 
   //Or with jQuery
-  M.AutoInit();
+  //M.AutoInit();
   
   $(document).ready(function(){
     $('.parallax').parallax();
