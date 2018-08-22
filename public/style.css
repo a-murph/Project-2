@@ -4,7 +4,16 @@
     border-style: solid;
     border-color: dimgrey;
     border-width: 2px;
+    background-color:white;
     
+}
+#groupInput{
+    width:600px;
+    
+}
+#submit-restaurant{
+    width:100px;
+    float:right;
 }
 
 #group{
@@ -26,4 +35,18 @@ h4 {
 }
 #groupInput{
     width:325px;
+}
+#skyline{
+    height:640px;
+}
+body{
+    background-image: url('images/img_1.jpg');
+    width:100%;
+    height:auto;
+}
+footer{
+   
+}
+#names{
+    color: cornflowerblue;
 }

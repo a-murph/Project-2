@@ -18,14 +18,24 @@
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="no title">
 	</head>
 	<body>
-		<div class="parallax-container">
-			<div class="parallax"><img src="images/lunchForms-pic1.jpg"></div>
+		<div class="parallax-container" id="skyline">
+			<div class="parallax"><img class="img-fluid" src="images/skyline2.jpg"></div>
 		</div>
+		<!--Group name container-->
+	
 		<!-- Jumbotron-->
-		<div id="head" class="jumbotron z-depth-2 rounded-0">
-			<h2 class="text-center container">
-				Lunch Locater
-			</h2>
+		<div id="head" class="jumbotron  z-depth-2 rounded-0">
+			<div>
+				<div class="input-group input-group-sm mb-3" id="groupInput">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroup-sizing-sm">Group Name</span>
+						</div>
+						<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-name">
+						
+					</div>
+					<button class="waves-effect waves-light btn" id="submit-restaurant">Submit</button>
+					
+		</div>
 		</div>
 
 		<div class="container">
@@ -38,33 +48,36 @@
 								</form>
 							  </nav>
 							  <br>
+							  <button type="button" class="btn btn-outline-warning">Click Here For Your Lunch Decision</button>
+							  <br>
+							  <br>
+							  <br>
+							  <br>
 							  <div id="group">
-						<h4>Group Members: </h4>
+						<h4>Restaurant Options: </h4>
 					<div id="groupNames">
 
 					</div>
 					<br>
 					<br>
+					<br>
+					<br>
+					<br>
+					
 					<div id="restChoice">
-							<button type="button" class="btn btn-outline-warning">Find Your Restaurant</button>
 						<div id="restRandom">
 
 						</div>
 					</div>
+						 
+					
 				</div>
 
 				</div>
-
-				<div id="form">
+                    <div id="form">
 					<div class="col">
 						<h4>Input your information and restaurant choice here: </h4>
 						<br>
-						<div class="input-group input-group-sm mb-3">
-							<div class="input-group-prepend">
-								<span class="input-group-text" id="inputGroup-sizing-sm">Group Name</span>
-							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="group-name">
-						</div>
 						<div class="input-group input-group-sm mb-3">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Member Name</span>
@@ -91,11 +104,14 @@
 				</div>
 			</div>
 		</div>
+		
 
-		<footer class="footer text-center py-2  z-depth-2 crimson">
+		
+
+		<footer class="footer text-center py-2 z-depth-2 crimson blue grey darken-4">
 			<ul class="nav-brand nav navbar p-3 list-unstyled crimson">
 				<li class="nav-item">
-					<a class="nav-link active">
+					<a class="nav-link active" id="names">
 						<strong class="foot">&copy; 2018
 							<em>Altamash Momin, Daniel Kissiday, Joseph Waters, Andrew Murphy</em>
 						</strong>
