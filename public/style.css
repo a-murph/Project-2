@@ -19,6 +19,12 @@
 
 #group{
  float: left;
+ background-color:white;
+ width:444px;
+ padding: 20px;
+ border-style: solid;
+    border-color: dimgrey;
+    border-width: 2px;
 
  
 }
