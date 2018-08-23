@@ -18,29 +18,44 @@
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="no title">
 	</head>
 	<body>
-		<div class="parallax-container" id="skyline">
-			<div class="parallax"><img class="img-fluid" src="images/skyline2.jpg"></div>
-		</div>
+			<div class="parallax-container">
+					<div class="valign-wrapper" style="height: 100%">
+						<p class="font-weight-bold center-align" id="title" style="color: white; font-size: 70px; width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">LUNCH LOCATOR APP</p>
+					<div class="parallax">
+						<img class="img-fluid" src="images/img_5.jpg">
+					</div>
+					</div>
+				</div>
 		<!--Group name container-->
 	
 		<!-- Jumbotron-->
 		<div id="head" class="jumbotron  z-depth-2 rounded-0">
-			<div>
-				<div class="input-group input-group-sm mb-3" id="groupInput">
-						<div class="input-group-prepend">
-							<span class="input-group-text" id="inputGroup-sizing-sm">Group Name</span>
+				<div class="jumbotron rounded-0" id="index_jumbotron">
+						<div class="row">
+							<div class="col s4"></div>
+								<div class="card col s4 center-align my-4" style="width: 18rem;">
+									<div class="card-body center-align">
+										<h5 class="card-title">Create A Group Name</h5>
+										<hr>
+										<nav class="navbar navbar-light bg-light">
+												<form class="form-inline">
+												  <input class="form-control mr-sm-2" type="search"  aria-label="Search">
+												</form>
+											  </nav>
+										<hr>
+											<button class="btn waves-effect waves-light" type="submit" name="action" href="/app">Click Here To Launch App
+											</button>
+									</div>
+								</div>
+							<div class="col s4"></div>
 						</div>
-						<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-name">
-						
 					</div>
-					<button class="waves-effect waves-light btn" id="submit-restaurant">Submit</button>
-					
-		</div>
-		</div>
+	</div>
+		
 
 		<div class="container">
 			<div class="row">
-				<div class="col">
+				<div class="col" id="groupSearch">
 						<nav class="navbar navbar-light bg-light">
 								<form class="form-inline">
 								  <input class="form-control mr-sm-2" type="search" placeholder="Search For Your Group" aria-label="Search" id="groupInput">
@@ -48,11 +63,7 @@
 								</form>
 							  </nav>
 							  <br>
-							  <button type="button" class="btn btn-outline-warning">Click Here For Your Lunch Decision</button>
-							  <br>
-							  <br>
-							  <br>
-							  <br>
+							
 							  <div id="group">
 						<h4>Restaurant Options: </h4>
 					<div id="groupNames">
@@ -75,8 +86,8 @@
 				</div>
 
 				</div>
-                    <div id="form">
-					<div class="col">
+                  <div id="form">
+						 <div class="col">
 						<h4>Input your information and restaurant choice here: </h4>
 						<br>
 						<div class="input-group input-group-sm mb-3">
@@ -103,8 +114,10 @@
 					</div>
 					<button class="waves-effect waves-light btn" id="submit-restaurant">Submit</button>
 				</div>
-			</div>
-		</div>
+			</div> 
+		</div> 
+
+		
 		
 
 		
