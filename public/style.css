@@ -6,6 +6,7 @@
     border-width: 2px;
     background-color:white;
     
+    
 }
 #groupInput{
     width:600px;
@@ -18,6 +19,7 @@
 
 #group{
  float: left;
+
  
 }
 h4 {
@@ -25,6 +27,7 @@ h4 {
 }
 #restChoice{
     float:left;
+    
 }
 .member-name {
 	display: inline-block;
@@ -40,9 +43,12 @@ h4 {
     height:640px;
 }
 body{
-    background-image: url('images/img_1.jpg');
+    background-image: url('images/img_7.jpg');
     width:100%;
-    height:auto;
+    
+    
+
+    
 }
 footer{
    

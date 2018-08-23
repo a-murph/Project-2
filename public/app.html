@@ -18,9 +18,14 @@
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="no title">
 	</head>
 	<body>
-		<div class="parallax-container" id="skyline">
-			<div class="parallax"><img class="img-fluid" src="images/skyline2.jpg"></div>
-		</div>
+			<div class="parallax-container">
+					<div class="valign-wrapper" style="height: 100%">
+						<p class="font-weight-bold center-align" id="title" style="color: white; font-size: 70px; width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">LUNCH LOCATOR APP</p>
+					<div class="parallax">
+						<img class="img-fluid" src="images/img_5.jpg">
+					</div>
+					</div>
+				</div>
 		<!--Group name container-->
 	
 		<!-- Jumbotron-->
@@ -30,18 +35,13 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col">
+				<div class="col" id="groupSearch">
 						<nav class="navbar navbar-light bg-light">
 								<form class="form-inline">
 								  <input class="form-control mr-sm-2" type="search" placeholder="Search For Your Group" aria-label="Search" id="groupInput">
 								  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="groupSearch">Search</button>
 								</form>
 							  </nav>
-							  <br>
-							  <button type="button" class="btn btn-outline-warning" id="restChoose">Click Here For Your Lunch Decision</button>
-							  <br>
-							  <br>
-							  <br>
 							  <br>
 							  <div id="group">
 						<h4>Restaurant Options: </h4>
@@ -53,6 +53,7 @@
 					<br>
 					
 					<div id="restChoice">
+            <button type="button" class="btn btn-outline-warning" id="restChoose">Find Your Restaurant</button>
 						<div id="restRandom">
 
 						</div>
