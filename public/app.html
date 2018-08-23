@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Lunch Locater</title>
+		<title>Lunch Locator</title>
 		<!-- Compiled and minified CSS -->
 		<!--materialize icons-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -30,28 +30,8 @@
 	
 		<!-- Jumbotron-->
 		<div id="head" class="jumbotron  z-depth-2 rounded-0">
-				<div class="jumbotron rounded-0" id="index_jumbotron">
-						<div class="row">
-							<div class="col s4"></div>
-								<div class="card col s4 center-align my-4" style="width: 18rem;">
-									<div class="card-body center-align">
-										<h5 class="card-title">Create A Group Name</h5>
-										<hr>
-										<nav class="navbar navbar-light bg-light">
-												<form class="form-inline">
-												  <input class="form-control mr-sm-2" type="search"  aria-label="Search">
-												</form>
-											  </nav>
-										<hr>
-											<button class="btn waves-effect waves-light" type="submit" name="action" href="/app">Click Here To Launch App
-											</button>
-									</div>
-								</div>
-							<div class="col s4"></div>
-						</div>
-					</div>
-	</div>
-		
+			<br><br><br>
+		</div>
 
 		<div class="container">
 			<div class="row">
@@ -63,7 +43,6 @@
 								</form>
 							  </nav>
 							  <br>
-							
 							  <div id="group">
 						<h4>Restaurant Options: </h4>
 					<div id="groupNames">
@@ -72,11 +51,9 @@
 					<br>
 					<br>
 					<br>
-					<br>
-					<br>
 					
 					<div id="restChoice">
-							<button type="button" class="btn btn-outline-warning" id="restChoose">Find Your Restaurant</button>
+            <button type="button" class="btn btn-outline-warning" id="restChoose">Find Your Restaurant</button>
 						<div id="restRandom">
 
 						</div>
@@ -86,8 +63,8 @@
 				</div>
 
 				</div>
-                  <div id="form">
-						 <div class="col">
+                    <div id="form" style="display:none">
+					<div class="col">
 						<h4>Input your information and restaurant choice here: </h4>
 						<br>
 						<div class="input-group input-group-sm mb-3">
@@ -114,10 +91,21 @@
 					</div>
 					<button class="waves-effect waves-light btn" id="submit-restaurant">Submit</button>
 				</div>
-			</div> 
-		</div> 
-
-		
+                    <div id="group-form">
+					<div class="col">
+						<h4>Enter your Group Name:</h4>
+						<br>
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-sm">Group Name</span>
+							</div>
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="group-name">
+						</div>
+					</div>
+					<button class="waves-effect waves-light btn" id="submit-group">Submit</button>
+				</div>
+			</div>
+		</div>
 		
 
 		
