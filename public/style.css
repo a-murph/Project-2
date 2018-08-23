@@ -1,13 +1,27 @@
-#form{
+#form, #group-form, #group{
     padding: 25px;
     float: right;
     border-style: solid;
     border-color: dimgrey;
     border-width: 2px;
+
+    background-color:white;
+    
+    
+}
+#groupInput{
+    width:600px;
+    
+
+}
+#submit-restaurant{
+    width:100px;
+    float:right;
 }
 
 #group{
  float: left;
+
  
 }
 h4 {
@@ -15,6 +29,7 @@ h4 {
 }
 #restChoice{
     float:left;
+
 }
 
 /* INDEX */
@@ -56,4 +71,34 @@ h4 {
 body {
     background-color: midnightblue;
     width: 101%;
+
+    
+}
+.member-name {
+	display: inline-block;
+	margin-right: 12px;
+}
+#groupSearch{
+    float:right;
+}
+#groupInput{
+    width:325px;
+}
+#skyline{
+    height:640px;
+}
+body{
+    background-image: url('images/img_7.jpg');
+    width:100%;
+    
+    
+
+    
+}
+footer{
+   
+}
+#names{
+    color: cornflowerblue;
+
 }
