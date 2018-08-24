@@ -22,7 +22,7 @@
 #group{
  float: left;
  background-color:white;
- width:444px;
+ width:460px;
  padding: 20px;
  border-style: solid;
     border-color: dimgrey;
@@ -86,25 +86,32 @@ body {
 }
 #groupSearch{
     float:right;
+       
 }
+nav{
+    width:460px;
+}
+
 #groupInput{
     width:325px;
 }
 #skyline{
     height:640px;
 }
-body{
-    background-image: url('images/img_7.jpg');
+#bImg{
+    background-image: url('images/img_8.jpg');
     width:100%;
-    
-    
-
     
 }
 footer{
-   
+   background-color: midnightblue;
 }
 #names{
     color: cornflowerblue;
 
+}
+#index{
+    background-color: midnightblue;
+    padding-top:10px;
+    margin-bottom:100px;
 }

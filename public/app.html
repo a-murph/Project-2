@@ -17,7 +17,7 @@
 		<!--CSS stylesheet-->
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="no title">
 	</head>
-	<body>
+	<body id="bImg">
 			<div class="parallax-container">
 					<div class="valign-wrapper" style="height: 100%">
 						<p class="font-weight-bold center-align" id="title" style="color: white; font-size: 70px; width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">LUNCH LOCATOR APP</p>
@@ -29,13 +29,36 @@
 		
 	
 		<!-- Jumbotron-->
-		<div id="head" class="jumbotron  z-depth-2 rounded-0">
-			<br><br><br>
+		<div class="rounded-0" id="index">
+				<div class="row mt-4">
+						<div class="col s4"></div>
+							<div class="card col s4 center-align z-depth-4" style="width: 18rem;">
+								<div class="card-body center-align">
+									<h5 class="card-title">Restaurant Locator App</h5>
+									<hr><ol>
+										<li>
+											Enter a name for your group to be stored under to launch app.
+										</li>
+										<li>
+											Enter your name, location, and restaurant option to be added to your group.
+										</li>
+										<li>
+											Once all group members have submitted a restaurant option click "Find Your Restaurant" to see where your group will eat.
+										</li>
+									</ol>
+									<hr>
+										
+								</div>
+							</div>
+						<div class="col s4"></div>
+					</div>
+			
 		</div>
+		
 
 		<div class="container">
 			<div class="row">
-				<div class="col" id="groupSearch">
+				<div class="col">
 						<nav class="navbar navbar-light bg-light">
 								<form class="form-inline">
 								  <input class="form-control mr-sm-2" type="search" placeholder="Search For Your Group" aria-label="Search" id="groupInput">
@@ -110,41 +133,20 @@
 
 		
 
-		<footer class="footer text-center py-2 z-depth-2 crimson blue grey darken-4">
-			<ul class="nav-brand nav navbar p-3 list-unstyled crimson">
-				<li class="nav-item">
-					<a class="nav-link active" id="names">
-						<strong class="foot">&copy; 2018
-							<em>Altamash Momin, Daniel Kissiday, Joseph Waters, Andrew Murphy</em>
-						</strong>
-					</a>
-				</li>
-				<div></div>
-
-				<ul class="nav nav-bar" id="icons">
+		<footer class="footer text-center" id="footer">
+				<ul class="nav-brand nav navbar p-3 list-unstyled">
 					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<i class="fab fa-facebook-square fa-2x"></i>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<i class="fab fa-twitter-square fa-2x"></i>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<i class="fab fa-instagram fa-2x"></i>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<i class="fab fa-youtube fa-2x"></i>
+						<a class="nav-link active">
+							<div class="row">
+							<strong class="foot" style="color: white">&copy; 2018
+								Altamash Momin, Daniel Kissiday, Joseph Waters, Andrew Murphy 
+							</strong>
+							|| <a href="https://github.com/a-murph/Project-2"> Project-2 </a>
+						</div>
 						</a>
 					</li>
 				</ul>
-			</ul>
-		</footer>
+			</footer>
 
 		<!--Bootstrap-->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
