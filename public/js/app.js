@@ -11,7 +11,15 @@ $(document).ready(function() {
 		};
 
 		$.post("/api/restaurants", newRestaurant, function(data) {
-			$("#groupNames").append("<span class='member-name'>" +data.restaurant_name +"</span>");
+			$.get("/api/restaurants/" +groupName, function(data) {
+				if (data) {
+					console.log(data);
+					$("#groupNames").empty();
+					data.forEach(function(val) {
+						$("#groupNames").append("<span class='member-name'>" +val.restaurant_name +"</span>");
+					});
+				}
+			});
 		}).then(function() {
 			$("#user-name").val("");
 			$("#user-location").val("");
@@ -19,7 +27,7 @@ $(document).ready(function() {
 		});
 	});
 
-	$("#groupSearch").on("click", function(event) {
+	$("#groupSearchSubmit").on("click", function(event) {
 		event.preventDefault();
 
 		var groupName = $("#groupInput").val().trim();
@@ -50,7 +58,7 @@ $(document).ready(function() {
 				$("#restRandom").empty();
 
 				$("#restRandom").append(
-					"<h5 class='rand-rest-name'>" +restaurant.restaurant_name +"</h6>"
+					"<h5 class='rand-rest-name'>" +restaurant.user_name +"'s choice: "+restaurant.restaurant_name +"</h6>"
 				);
 				$("#restRandom").append(
 					"<p class='rand-rest-address'>" +restaurant.address +"</p>"
