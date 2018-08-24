@@ -161,5 +161,12 @@
 			//for parallax effect
 			$('.parallax').parallax();
 		</script>
+		<script>
+			function activatePlacesSearch(){
+				var input = document.getElementById('user-location');
+				var autocomplete = new google.maps.places.Autocomplete(input);
+			}
+		</script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJSBJDAxQCCPUOhaU8-0x27yvacWlT6-c&libraries=places&callback=activatePlacesSearch"></script>
 	</body>
 </html>
