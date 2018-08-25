@@ -86,6 +86,9 @@ body {
 
     
 }
+input{
+    font-weight: bolder;
+}
 .member-name {
 	display: inline-block;
 	margin-right: 12px;
@@ -105,12 +108,13 @@ nav{
     height:640px;
 }
 #bImg{
-    background-image: url('images/img_8.jpg');
+    background-image: url('images/img_4.jpg');
     width:100%;
     
 }
 footer{
    background-color: midnightblue;
+   
 }
 #names{
     color: cornflowerblue;
