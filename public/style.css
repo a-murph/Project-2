@@ -108,7 +108,7 @@ nav{
     height:640px;
 }
 #bImg{
-    background-image: url('images/img_4.jpg');
+    background-image: url('images/img_3.jpg');
     width:100%;
     
 }
@@ -124,4 +124,10 @@ footer{
     background-color: midnightblue;
     padding-top:10px;
     margin-bottom:100px;
+}
+#P2{
+    float:right;
+    margin-left:890px;
+    color:white;
+    font-weight: bold;
 }
