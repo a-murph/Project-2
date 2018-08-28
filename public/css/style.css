@@ -108,7 +108,7 @@ nav{
     height:640px;
 }
 #bImg{
-    background-image: url('images/img_3.jpg');
+    background-image: url('../images/img_3.jpg');
     width:100%;
     
 }
