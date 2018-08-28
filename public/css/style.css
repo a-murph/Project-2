@@ -1,5 +1,5 @@
-#form, #group-form,{
-    padding: 25px;
+#form, #group-form{
+    padding: 20px;
     float: right;
     border-style: solid;
     border-color: dimgrey;
@@ -26,7 +26,6 @@
 }
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
 }
 
 #restChoice{

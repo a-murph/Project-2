@@ -88,24 +88,21 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Member Name</span>
 							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-name"
-							 style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-name">
 						</div>
 						<br>
 						<div class="input-group input-group-sm mb-3">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Location</span>
 							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-location"
-							 style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-location">
 						</div>
 						<br>
 						<div class="input-group input-group-sm mb-3">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Restaurant Suggestion</span>
 							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="restaurant-name"
-							 style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="restaurant-name">
 						</div>
 						<br>
 					</div>
@@ -119,8 +116,7 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Group Name</span>
 							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="group-name"
-							 style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="group-name">
 						</div>
 					</div>
 					<button class="waves-effect waves-light btn" id="submit-group">Submit</button>
@@ -156,13 +152,13 @@
 			//for parallax effect
 			$('.parallax').parallax();
 			</script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJSBJDAxQCCPUOhaU8-0x27yvacWlT6-c&libraries=places&callback=activatePlacesSearch"></script>
 		<script>
 			function activatePlacesSearch() {
 				var input = document.getElementById('user-location');
 				var autocomplete = new google.maps.places.Autocomplete(input);
 			}
 		</script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJSBJDAxQCCPUOhaU8-0x27yvacWlT6-c&libraries=places&callback=activatePlacesSearch"></script>
 		<script src="/js/app.js" type="text/javascript"></script>
 	</body>
 </html>
