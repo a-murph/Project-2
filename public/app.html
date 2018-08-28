@@ -7,87 +7,80 @@
 		<title>Lunch Locator</title>
 		<!-- Compiled and minified CSS -->
 		<!--materialize icons-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+		 crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 		<!--bootstrap cdn-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 		<!--CSS stylesheet-->
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" title="no title">
 	</head>
 	<body id="bImg">
-			<div class="parallax-container">
-					<div class="valign-wrapper" style="height: 100%">
-						<p class="font-weight-bold center-align" id="title" style="color: white; font-size: 70px; width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">LUNCH LOCATOR APP</p>
-					<div class="parallax">
-						<img class="img-fluid" src="images/img_5.jpg">
-					</div>
-					</div>
+		<div class="parallax-container">
+			<div class="valign-wrapper" style="height: 100%">
+				<p class="font-weight-bold center-align" id="title" style="color: white; font-size: 70px; width: 100%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">LUNCH
+					LOCATOR APP</p>
+				<div class="parallax">
+					<img class="img-fluid" src="images/img_5.jpg">
 				</div>
-		
-	
+			</div>
+		</div>
+
 		<!-- Jumbotron-->
 		<div class="rounded-0" id="index">
-				<div class="row mt-4">
-						<div class="col s4"></div>
-							<div class="card col s4 center-align z-depth-4" style="width: 18rem;">
-								<div class="card-body center-align">
-									<h5 class="card-title">Lunch Locator App</h5>
-									<hr><ol>
-										<li>
-											Enter a name for your group to be stored under to launch app.
-										</li>
-										<li>
-											Enter your name, location, and restaurant option to be added to your group.
-										</li>
-										<li>
-											Once all group members have submitted a restaurant option click "Find Your Restaurant" to see where your group will eat.
-										</li>
-									</ol>
-									<hr>
-										
-								</div>
-							</div>
-						<div class="col s4"></div>
+			<div class="row mt-4">
+				<div class="col s4"></div>
+				<div class="card col s4 center-align z-depth-4" style="width: 18rem;">
+					<div class="card-body center-align">
+						<h5 class="card-title">Lunch Locator App</h5>
+						<hr>
+						<ol>
+							<li>
+								Enter a name for your group to be stored under to launch app.
+							</li>
+							<li>
+								Enter your name, location, and restaurant option to be added to your group.
+							</li>
+							<li>
+								Once all group members have submitted a restaurant option click "Find Your Restaurant" to see where your group will eat.
+							</li>
+						</ol>
+						<hr>
+
 					</div>
-			
+				</div>
+				<div class="col s4"></div>
+			</div>
 		</div>
-		
 
 		<div class="container" id="gDiv">
 			<div class="row">
 				<div class="col">
-						<nav class="navbar navbar-light bg-light">
-								<form class="form-inline">
-								  <input class="form-control mr-sm-2" type="search" placeholder="Search For Your Group" aria-label="Search" id="groupInput">
-								  <button class="btn btn-outline-success my-2 my-sm-0 fontText" type="submit" id="groupSearchSubmit">Search</button>
-								</form>
-							  </nav>
-							  <br>
-							  <div id="group">
+					<nav class="navbar navbar-light bg-light">
+						<form class="form-inline">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search For Your Group" aria-label="Search" id="groupInput">
+							<button class="btn btn-outline-success my-2 my-sm-0 fontText" type="submit" id="groupSearchSubmit">Search</button>
+						</form>
+					</nav>
+					<br>
+					<div id="group">
 						<h4>Restaurant Options: </h4>
-					<div id="groupNames">
-
-					</div>
-					<br>
-					<br>
-					<br>
-					
-					<div id="restChoice">
-			<button type="button" class="btn btn-outline-success my-2 my-sm-0 fontText" id="restChoose">Find Your Restaurant</button>
-			<br>
-						<div id="restRandom">
-
+						<div id="groupNames">
+						</div>
+						<br>
+						<br>
+						<br>
+						<div id="restChoice">
+							<button type="button" class="btn btn-outline-success my-2 my-sm-0 fontText" id="restChoose">Find Your Restaurant</button>
+							<br>
+							<div id="restRandom">
+							</div>
 						</div>
 					</div>
-						 
-					
 				</div>
-
-				</div>
-                    <div id="form" style="display:none">
+				<div id="form" style="display:none">
 					<div class="col">
 						<h4>Input your information and restaurant choice here: </h4>
 						<br>
@@ -95,27 +88,30 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Member Name</span>
 							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-name" style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-name"
+							 style="color:white;">
 						</div>
 						<br>
 						<div class="input-group input-group-sm mb-3">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Location</span>
 							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-location" style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="user-location"
+							 style="color:white;">
 						</div>
 						<br>
 						<div class="input-group input-group-sm mb-3">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Restaurant Suggestion</span>
 							</div>
-							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="restaurant-name" style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="restaurant-name"
+							 style="color:white;">
 						</div>
 						<br>
 					</div>
 					<button class="waves-effect waves-light btn" id="submit-restaurant">Submit</button>
 				</div>
-                    <div id="group-form">
+				<div id="group-form">
 					<div class="col">
 						<h4>Enter your Group Name:</h4>
 						<br>
@@ -123,54 +119,50 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="inputGroup-sizing-sm">Group Name</span>
 							</div>
-					 	<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="group-name" style="color:white;">
+							<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="group-name"
+							 style="color:white;">
 						</div>
 					</div>
 					<button class="waves-effect waves-light btn" id="submit-group">Submit</button>
 				</div>
 			</div>
 		</div>
-		
-
-		
 
 		<footer class="footer text-center" id="footer">
-				<ul class="nav-brand nav navbar p-3 list-unstyled">
-					<li class="nav-item">
-						<a class="nav-link active">
-							<div class="row">
-							<strong class="foot" style="color: white">&copy; 2018
-								Altamash Momin, Daniel Kissiday, Joseph Waters, Andrew Murphy 
+			<ul class="nav-brand nav navbar p-3 list-unstyled">
+				<li class="nav-item">
+					<a class="nav-link active">
+						<div class="row">
+							<strong class="foot" style="color: white">&copy; 2018 Altamash Momin, Daniel Kissiday, Joseph Waters, Andrew Murphy
 							</strong>
-							
-							|| <a id="P2" href="https://github.com/a-murph/Project-2"> Project-2 </a>   
-						
+							|| <a id="P2" href="https://github.com/a-murph/Project-2"> Project-2 </a>
 						</div>
-						</a>
-
-					</li>
-				</ul>
-			</footer>
+					</a>
+				</li>
+			</ul>
+		</footer>
 
 		<!--Bootstrap-->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 		 crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		 crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+		 crossorigin="anonymous"></script>
 		<!--Materialize-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 		<!--app.js-->
-		<script src="/js/app.js" type="text/javascript"></script>
 		<script>
 			//for parallax effect
 			$('.parallax').parallax();
-		</script>
+			</script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJSBJDAxQCCPUOhaU8-0x27yvacWlT6-c&libraries=places&callback=activatePlacesSearch"></script>
 		<script>
-			function activatePlacesSearch(){
+			function activatePlacesSearch() {
 				var input = document.getElementById('user-location');
 				var autocomplete = new google.maps.places.Autocomplete(input);
 			}
 		</script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJSBJDAxQCCPUOhaU8-0x27yvacWlT6-c&libraries=places&callback=activatePlacesSearch"></script>
+		<script src="/js/app.js" type="text/javascript"></script>
 	</body>
 </html>
