@@ -4,16 +4,11 @@
     border-style: solid;
     border-color: dimgrey;
     border-width: 2px;
-
     background-color:white;
-    
-    
 }
 
 #groupInput{
     width:600px;
-    
-
 }
 #submit-restaurant{
     width:100px;
@@ -21,15 +16,13 @@
 }
 
 #group{
- float: left;
- background-color:white;
- width:460px;
- padding: 20px;
- border-style: solid;
+	float: left;
+	background-color:white;
+	width:460px;
+	padding: 20px;
+	border-style: solid;
     border-color: dimgrey;
     border-width: 2px;
-
- 
 }
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,7 +31,6 @@ h4 {
 
 #restChoice{
     float:left;
-
 }
 #restRandom{
     padding:20px;
@@ -66,7 +58,6 @@ h4 {
     -o-transition: all 1s ease-out;
     -ms-transition: all 1s ease-out;
     transition: all 1s ease-out;
-
 }
 
 .btn:hover {
@@ -83,8 +74,6 @@ h4 {
 body {
     background-color: midnightblue;
     width: 101%;
-
-    
 }
 input{
     font-weight: bolder;
@@ -95,7 +84,6 @@ input{
 }
 #groupSearch{
     float:right;
-       
 }
 nav{
     width:460px;
@@ -110,15 +98,12 @@ nav{
 #bImg{
     background-image: url('../images/img_3.jpg');
     width:100%;
-    
 }
 footer{
    background-color: midnightblue;
-   
 }
 #names{
     color: cornflowerblue;
-
 }
 #index{
     background-color: midnightblue;
