@@ -1,90 +1,85 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
-    <head>
-        <title>Lunch App</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>Lunch App</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--Font Awesome-->
+		<!--Font Awesome-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
-        <!--Materialize CDN-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Bootstrap CDN-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+		 crossorigin="anonymous">
+		<!--Materialize CDN-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Bootstrap CDN-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+		 crossorigin="anonymous">
 
-        <!--CSS stylesheet-->
-        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" title="no title">
+		<!--CSS stylesheet-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" title="no title">
+	</head>
+	<body>
+		<div class="parallax-container z-depth-3">
+			<div class="valign-wrapper" style="height: 100%">
+				<p class="font-weight-bold center-align appText">LUNCH LOCATOR APP</p>
+				<div class="parallax">
+					<img class="img-fluid" src="images/img_5.jpg">
+				</div>
+			</div>
+		</div>
 
-    </head>
+		<div class="rounded-0" id="index_jumbotron">
+			<div class="row mt-4">
+				<div class="col s4"></div>
+				<div class="card col s4 center-align z-depth-4" style="width: 18rem;">
+					<div class="card-body center-align">
+						<h5 class="card-title">Lunch Locator App</h5>
+						<hr>
+						<p class="card-text">Trouble with choosing a place to eat with a group of friends or family? Let each person suggest
+							a place to eat and then review the picks! </p>
+						<hr>
+						<a href="/app">
+							<button id="indexButton" class="btn waves-effect waves-light z-depth-2" type="submit" name="action">Go To The Application
+							</button>
+						</a>
+					</div>
+				</div>
+				<div class="col s4"></div>
+			</div>
+		</div>
 
-<body>
+		<div class="parallax-container z-depth-3">
+			<div class="parallax">
+				<img class="img-fluid" src="images/img_2.jpg">
+			</div>
+		</div>
 
-    <div class="parallax-container z-depth-3">
-        <div class="valign-wrapper" style="height: 100%">
-            <p class="font-weight-bold center-align appText">LUNCH LOCATOR APP</p>
-        <div class="parallax">
-            <img class="img-fluid" src="images/img_5.jpg">
-        </div>
-        </div>
-    </div>
-
-    <div class="rounded-0" id="index_jumbotron">
-        <div class="row mt-4">
-            <div class="col s4"></div>
-                <div class="card col s4 center-align z-depth-4" style="width: 18rem;">
-                    <div class="card-body center-align">
-                        <h5 class="card-title">Lunch Locator App</h5>
-                        <hr>
-                        <p class="card-text">Trouble with choosing a place to eat with a group of friends or family? Let each person suggest a place to eat and then review the picks! </p>
-                        <hr>
-                            <a href="/app">
-                                <button id="indexButton" class="btn waves-effect waves-light z-depth-2" type="submit" name="action">Go To The Application
-                            </button>
-                            </a>
-                    </div>
-                </div>
-            <div class="col s4"></div>
-        </div>
-    </div>
-
-    <div class="parallax-container z-depth-3">
-            <div class="parallax">
-                <img class="img-fluid" src="images/img_2.jpg">
-            </div>
-    </div>
-
-    
-
-    <footer class="footer text-center" id="footer">
+		<footer class="footer text-center" id="footer">
 			<ul class="nav-brand nav navbar p-3 list-unstyled">
 				<li class="nav-item">
 					<a class="nav-link active">
-                        <div class="row">
-						<strong class="foot" style="color: white">&copy; 2018
-							Altamash Momin, Daniel Kissiday, Joseph Waters, Andrew Murphy 
-                        </strong>
-                        || <a href="https://github.com/a-murph/Project-2"> Project-2 </a>
-                    </div>
-                    </a>
+						<div class="row">
+							<strong class="foot" style="color: white">&copy; 2018 Altamash Momin, Daniel Kissiday, Joseph Waters, Andrew Murphy
+							</strong>
+							|| <a href="https://github.com/a-murph/Project-2"> Project-2 </a>
+						</div>
+					</a>
 				</li>
 			</ul>
 		</footer>
 
-
-	<!--Bootstrap JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-    <!--Materialize JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script>
-        M.AutoInit();
+		<!--Bootstrap JS-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		 crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		 crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+		 crossorigin="anonymous"></script>
+		<!--Materialize JS-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+		<script>
+			M.AutoInit();
         //$('.parallax').parallax();
-    </script>
-</body>
+		</script>
+	</body>
+</html>
